@@ -1,0 +1,9 @@
+# Use Ubuntu 22.04 as the base image
+FROM ubuntu:22.04
+
+# Set the maintainer (optional but good practice)
+LABEL maintainer="Max Dizy (20mld4@queensu.ca)"
+
+WORKDIR ~/ws/personal-qadt-test-repo
+
+RUN apt-get update
