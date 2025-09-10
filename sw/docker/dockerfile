@@ -4,6 +4,6 @@ FROM ubuntu:22.04
 # Set the maintainer (optional but good practice)
 LABEL maintainer="Max Dizy (20mld4@queensu.ca)"
 
-WORKDIR ~/ws/personal-qadt-test-repo
+WORKDIR /home/max/ws/qadt-sandbox
 
 RUN apt-get update
